@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+:root{
+    --bs-body-bg: var(--bs-gray-dark);
+    --bs-body-color: var(--bs-gray-300);
+}
+
+header{
+    background-color: var(--bs-gray-900);
+}
+
+footer{
+    color: var(--bs-body-color);
+}
+
+table{
+    color: var(--bs-body-color) !important;
+    background-color: var(--bs-gray-900);
+}
+
+input:not([type=submit]),select{
+    background-color: var(--bs-gray-900) !important;
+    color: var(--bs-body-color) !important;
+}
